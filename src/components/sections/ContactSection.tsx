@@ -78,7 +78,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-outfit font-semibold mb-2">Email</h3>
-                  <p className="text-light font-outfit">hello@<span className="font-moonwalk">ctrllabs</span>.com</p>
+                  <p className="text-light font-outfit">hello@ctrllabs.com</p>
                 </div>
               </div>
 
@@ -113,6 +113,7 @@ export const ContactSection = () => {
                     onChange={handleChange}
                     required
                     autoComplete="name"
+                    placeholder="Enter your full name"
                     className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth"
                   />
                 </div>
@@ -129,6 +130,7 @@ export const ContactSection = () => {
                     onChange={handleChange}
                     required
                     autoComplete="email"
+                    placeholder="Enter your email address"
                     className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth"
                   />
                 </div>
@@ -146,6 +148,7 @@ export const ContactSection = () => {
                   onChange={handleChange}
                   required
                   autoComplete="off"
+                  placeholder="What is this about?"
                   className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth"
                 />
               </div>
@@ -162,6 +165,7 @@ export const ContactSection = () => {
                   required
                   rows={5}
                   autoComplete="off"
+                  placeholder="Tell us about your project or inquiry..."
                   className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth resize-none"
                 />
               </div>
