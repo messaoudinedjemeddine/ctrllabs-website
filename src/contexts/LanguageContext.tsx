@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
-export type Language = 'en' | 'fr' | 'ar';
+export type Language = 'en' | 'fr';
 
 interface LanguageContextType {
   language: Language;
@@ -121,62 +121,7 @@ const translations = {
     'footer.quickLinks': 'Liens Rapides',
     'footer.connect': 'Se Connecter',
     'footer.copyright': '© 2024 CtrlLabs. Tous droits réservés.',
-  },
-  ar: {
-    // Navigation
-    'nav.home': 'الرئيسية',
-    'nav.about': 'من نحن',
-    'nav.services': 'الخدمات',
-    'nav.portfolio': 'الأعمال',
-    'nav.contact': 'اتصل بنا',
-    
-    // Hero Section
-    'hero.title': 'التحكم الرقمي مُطلق',
-    'hero.subtitle': 'في CtrlLabs، نحن لا نبني حلول رقمية فحسب، بل نتقنها. نحن شريكك في السوق الجزائري، نصنع مواقع ويب استثنائية وتطبيقات ويب ومنصات تجارة إلكترونية تضعك في تحكم كامل لوجودك الرقمي.',
-    'hero.cta': 'شاهد أعمالنا',
-    
-    // About Section
-    'about.title': 'من نحن CtrlLabs',
-    'about.description': 'CtrlLabs هي وكالة رقمية جزائرية تأسست على مبدأ التحكم، مستوحاة من مفتاح لوحة المفاتيح الذي يعني الأمر والإتقان. نؤمن أن النجاح الرقمي الحقيقي يأتي من وجود رؤية شاملة لوجودك عبر الإنترنت.',
-    'about.specialization': 'فريقنا من المطورين والمصممين الخبراء مكرس لتقديم حلول مبتكرة تمكن عملك. نتخصص في تقديم مواقع ويب قوية وتطبيقات ويب ديناميكية وحلول تجارة إلكترونية سلسة مصممة خصيصاً للسوق الجزائري المحلي.',
-    'about.mission': 'مهمتنا هي أن نكون القوة الحاسمة في التحول الرقمي للجزائر. نحقق ذلك من خلال تقديم حلول متطورة وموثوقة وقابلة للتطوير، من دمج بوابات الدفع المحلية مثل Chargily إلى تحسين لوجستيات الشحن مع خدمات مثل Yalidine.',
-    
-    // Services Section
-    'services.title': 'خدماتنا',
-    'services.subtitle': 'تمكين عملك بحلول رقمية شاملة ورائدة في السوق.',
-    
-    // Portfolio Section
-    'portfolio.title': 'مشاريع مختارة',
-    'portfolio.subtitle': 'مجموعة مختارة من أكثر أعمالنا تأثيراً في المشهد الرقمي الجزائري.',
-    'portfolio.viewProject': 'عرض المشروع',
-    
-    // Trusted Companies Section
-    'trusted.title': 'يثقون بنا',
-    'trusted.subtitle': 'نحن فخورون بأن نكون شركاء لعدد متزايد من الشركات في الجزائر، نساعدهم في تحقيق أهدافهم الرقمية.',
-    
-    // Team Section
-    'team.title': 'تعرف على فريقنا',
-    'team.subtitle': 'فريق من المحترفين المتفانين الذين يتحكمون في كل تفصيل من رحلتك الرقمية بشغف ودقة.',
-    
-    // Contact Section
-    'contact.title': 'تواصل معنا',
-    'contact.subtitle': 'مستعد لأخذ زمام التحكم في وجودك الرقمي؟ اتصل بنا اليوم لمناقشة كيف يمكننا بناء حل قوي لعملك في الجزائر.',
-    'contact.name': 'الاسم',
-    'contact.email': 'البريد الإلكتروني',
-    'contact.subject': 'الموضوع',
-    'contact.message': 'الرسالة',
-    'contact.send': 'إرسال الرسالة',
-    'contact.namePlaceholder': 'أدخل اسمك الكامل',
-    'contact.emailPlaceholder': 'أدخل عنوان بريدك الإلكتروني',
-    'contact.subjectPlaceholder': 'ما هو هذا الموضوع؟',
-    'contact.messagePlaceholder': 'أخبرنا عن مشروعك أو استفسارك...',
-    
-    // Footer
-    'footer.description': 'إتقان التحكم الرقمي من خلال حلول مبتكرة. نحن نمكن الشركات في الجزائر من رؤية شاملة لوجودهم الرقمي.',
-    'footer.quickLinks': 'روابط سريعة',
-    'footer.connect': 'تواصل',
-    'footer.copyright': '© 2024 CtrlLabs. جميع الحقوق محفوظة.',
-  }
+
 };
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {

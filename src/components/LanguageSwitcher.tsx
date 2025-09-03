@@ -4,8 +4,7 @@ import { useLanguage, Language } from '@/contexts/LanguageContext';
 
 const languageOptions = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'ar', name: 'العربية', flag: '🇩🇿' }
+  { code: 'fr', name: 'Français', flag: '🇫🇷' }
 ];
 
 export const LanguageSwitcher = () => {
@@ -30,14 +29,8 @@ export const LanguageSwitcher = () => {
     setLanguage(langCode);
     setIsOpen(false);
     
-    // Update document direction for Arabic
-    if (langCode === 'ar') {
-      document.documentElement.dir = 'rtl';
-      document.documentElement.lang = 'ar';
-    } else {
-      document.documentElement.dir = 'ltr';
-      document.documentElement.lang = langCode;
-    }
+    // Update document language
+    document.documentElement.lang = langCode;
   };
 
   return (
