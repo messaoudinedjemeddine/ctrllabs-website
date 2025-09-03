@@ -31,42 +31,22 @@ export const HeroSection = () => {
 
   return (
     <section id="hero" className="min-h-screen relative flex items-center justify-center overflow-hidden">
-      {/* Abstract Animated Gradient Background */}
+      {/* White Abstract Particles Background */}
       <div className="abstract-bg-container">
-        {/* Primary animated gradient */}
-        <div className="abstract-gradient-primary" />
-        
-        {/* Secondary animated gradient */}
-        <div className="abstract-gradient-secondary" />
-        
-        {/* Tertiary animated gradient */}
-        <div className="abstract-gradient-tertiary" />
-        
-        {/* Abstract geometric shapes */}
-        <div className="abstract-shapes">
-          <div className="abstract-shape-1" />
-          <div className="abstract-shape-2" />
-          <div className="abstract-shape-3" />
-          <div className="abstract-shape-4" />
-        </div>
-        
-        {/* Enhanced floating particles */}
+        {/* White floating particles */}
         <div className="particles-container">
-          {Array.from({ length: 30 }).map((_, i) => (
+          {Array.from({ length: 50 }).map((_, i) => (
             <div
               key={i}
               className={`particle ${i % 3 === 0 ? 'particle-large' : i % 2 === 0 ? 'particle-medium' : 'particle-small'}`}
               style={{
                 left: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 15}s`,
-                animationDuration: `${20 + Math.random() * 15}s`
+                animationDelay: `${Math.random() * 20}s`,
+                animationDuration: `${15 + Math.random() * 10}s`
               }}
             />
           ))}
         </div>
-        
-        {/* Overlay for depth */}
-        <div className="abstract-overlay" />
       </div>
 
       {/* Content */}
