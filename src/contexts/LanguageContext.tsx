@@ -121,7 +121,7 @@ const translations = {
     'footer.quickLinks': 'Liens Rapides',
     'footer.connect': 'Se Connecter',
     'footer.copyright': '© 2024 CtrlLabs. Tous droits réservés.',
-
+  }
 };
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
