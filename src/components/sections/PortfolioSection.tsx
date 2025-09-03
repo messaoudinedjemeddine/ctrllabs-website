@@ -5,31 +5,37 @@ import portfolioEcommerce from '@/assets/portfolio-ecommerce.jpg';
 
 const projects = [
   {
+    id: 'interior-design-studio',
     image: portfolioInterior,
     title: 'Interior Design Studio',
     category: 'Branding & Web Design'
   },
   {
+    id: 'tech-startup-identity',
     image: portfolioBranding,
     title: 'Tech Startup Identity',
     category: 'Brand Identity'
   },
   {
+    id: 'premium-ecommerce',
     image: portfolioEcommerce,
     title: 'Premium E-commerce',
     category: 'UI/UX & Development'
   },
   {
+    id: 'luxury-resort-website',
     image: portfolioInterior,
     title: 'Luxury Resort Website',
     category: 'Web Design'
   },
   {
+    id: 'financial-services-app',
     image: portfolioBranding,
     title: 'Financial Services App',
     category: 'Mobile Design'
   },
   {
+    id: 'creative-agency-site',
     image: portfolioEcommerce,
     title: 'Creative Agency Site',
     category: 'Full-Stack Development'
