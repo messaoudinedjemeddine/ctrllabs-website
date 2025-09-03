@@ -45,7 +45,7 @@ export const TrustedCompaniesSection = () => {
             <span className="section-title-thin">By</span>
           </h2>
           <p className="text-xl text-light font-outfit font-light max-w-3xl mx-auto">
-            Leading companies worldwide trust us with their digital transformation.
+            We are proud partners to a growing number of businesses in Algeria, helping them achieve their digital goals.
           </p>
         </div>
 

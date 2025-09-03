@@ -11,33 +11,33 @@ import {
 const services = [
   {
     icon: Globe,
-    title: 'Web Design',
-    description: 'Beautiful, responsive websites that captivate and convert visitors into customers.'
+    title: 'Websites & Web Apps',
+    description: 'Custom-built websites and powerful web applications designed for performance, security, and a flawless user experience.'
   },
   {
     icon: Code,
-    title: 'Development',
-    description: 'Robust, scalable web applications built with cutting-edge technologies.'
-  },
-  {
-    icon: Palette,
-    title: 'Branding',
-    description: 'Comprehensive brand identity systems that tell your unique story.'
-  },
-  {
-    icon: TrendingUp,
-    title: 'Digital Marketing',
-    description: 'Strategic campaigns that amplify your reach and drive meaningful engagement.'
+    title: 'E-commerce Solutions',
+    description: 'Launch a thriving online store with our bespoke e-commerce platforms, featuring essential local integrations like Yalidine for shipping and Chargily for secure payments.'
   },
   {
     icon: Figma,
     title: 'UI/UX Design',
-    description: 'User-centered design solutions that create intuitive digital experiences.'
+    description: 'Human-centered design that ensures your digital products are intuitive, engaging, and convert visitors into loyal customers.'
+  },
+  {
+    icon: Palette,
+    title: 'Branding & Identity',
+    description: 'We craft powerful brand identities that tell your story and create a lasting connection with your audience in the Algerian market.'
+  },
+  {
+    icon: TrendingUp,
+    title: 'Digital Marketing',
+    description: 'Strategic online campaigns to boost your visibility, drive traffic, and achieve measurable growth for your business.'
   },
   {
     icon: MessageCircle,
-    title: 'Consulting',
-    description: 'Expert guidance to help you navigate the ever-evolving digital landscape.'
+    title: 'Technical Consulting',
+    description: 'Expert guidance to navigate your digital challenges, helping you find the right technologies and strategies to solve any problem.'
   }
 ];
 
@@ -83,7 +83,7 @@ export const ServicesSection = () => {
             <span className="section-title-thin">Services</span>
           </h2>
           <p className="text-xl text-light font-outfit font-light max-w-3xl mx-auto">
-            Comprehensive solutions for modern digital needs.
+            Empowering your business with comprehensive, market-leading digital solutions.
           </p>
         </div>
 

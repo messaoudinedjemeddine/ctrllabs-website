@@ -75,10 +75,10 @@ export const PortfolioSection = () => {
         <div ref={sectionRef} className="text-center mb-20 opacity-0">
           <h2 className="section-title mb-6">
             <span className="section-title-bold">Featured</span>{' '}
-            <span className="section-title-thin">Work</span>
+            <span className="section-title-thin">Projects</span>
           </h2>
           <p className="text-xl text-light font-outfit font-light max-w-3xl mx-auto">
-            A showcase of our most impactful projects.
+            A curated selection of our most impactful work in the Algerian digital landscape.
           </p>
         </div>
 

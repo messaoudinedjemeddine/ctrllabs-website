@@ -63,7 +63,7 @@ export const TeamSection = () => {
             <span className="section-title-thin">Team</span>
           </h2>
           <p className="text-xl text-light font-outfit font-light max-w-3xl mx-auto">
-            Talented professionals passionate about creativity.
+            A team of dedicated professionals who control every detail of your digital journey with passion and precision.
           </p>
         </div>
 

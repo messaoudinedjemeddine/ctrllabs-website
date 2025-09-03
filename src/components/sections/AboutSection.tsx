@@ -36,20 +36,15 @@ export const AboutSection = () => {
             
             <div className="space-y-6 text-lg text-light font-outfit font-light leading-relaxed">
               <p>
-                At CtrlLabs, we're passionate about pushing the boundaries of digital creativity. 
-                Our team of visionary designers and developers craft experiences that don't just 
-                look beautiful—they inspire action and drive results.
+                CtrlLabs is an Algerian digital agency founded on the principle of Control, inspired by the keyboard key that signifies command and mastery. We believe that true digital success comes from having complete oversight of your online presence. Our team of expert developers and designers is dedicated to providing innovative solutions that empower your business.
               </p>
               
               <p>
-                Founded on the principles of innovation and technical excellence, we partner with 
-                forward-thinking brands to bring their boldest ideas to life. From concept to 
-                launch, we're dedicated to delivering solutions that exceed expectations.
+                We specialize in delivering robust websites, dynamic web applications, and seamless e-commerce solutions tailored specifically for the local Algerian market. Our deep understanding of the market allows us to create platforms that not only meet global standards but also resonate with local audiences.
               </p>
               
               <p>
-                Our mission is simple: to pioneer creative excellence in everything we do, 
-                setting new standards for what's possible in the digital realm.
+                Our mission is to be the definitive force in Algeria's digital transformation. We achieve this by providing cutting-edge, reliable, and scalable solutions, from integrating local payment gateways like Chargily to optimizing shipping logistics with services such as Yalidine, ensuring your business operates without a hitch.
               </p>
             </div>
           </div>

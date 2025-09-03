@@ -74,7 +74,7 @@ export const HeroSection = () => {
         <h1 className="hero-title mb-8">
           <div className="hero-word-container">
             <span className="hero-title-bold animate-hero-word-1">
-              {"Creative".split('').map((letter, index) => (
+              {"Digital Control".split('').map((letter, index) => (
                 <span 
                   key={index} 
                   className="hero-letter"
@@ -87,7 +87,7 @@ export const HeroSection = () => {
           </div>
           <div className="hero-word-container">
             <span className="hero-title-thin animate-hero-word-2">
-              {"Portfolio".split('').map((letter, index) => (
+              {"Unlocked".split('').map((letter, index) => (
                 <span 
                   key={index} 
                   className="hero-letter"
@@ -100,8 +100,8 @@ export const HeroSection = () => {
           </div>
         </h1>
         
-        <p className="text-xl md:text-2xl text-light mb-12 font-outfit font-light max-w-2xl mx-auto">
-          We create digital experiences that inspire and engage.
+        <p className="text-xl md:text-2xl text-light mb-12 font-outfit font-light max-w-3xl mx-auto">
+          At CtrlLabs, we don't just build digital solutions, we master them. We are your partner in the Algerian market, crafting exceptional websites, web apps, and e-commerce platforms that put you in complete control of your digital presence.
         </p>
         
         <button 

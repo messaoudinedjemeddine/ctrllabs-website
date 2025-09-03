@@ -54,7 +54,7 @@ export const ContactSection = () => {
             <span className="section-title-thin">Touch</span>
           </h2>
           <p className="text-xl text-light font-outfit font-light max-w-3xl mx-auto">
-            Ready to start your next project? Let's discuss how we can help bring your vision to life.
+            Ready to take control of your digital presence? Contact us today to discuss how we can build a powerful solution for your business in Algeria.
           </p>
         </div>
 
