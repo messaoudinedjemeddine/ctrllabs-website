@@ -1,16 +1,19 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, ArrowUp } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const navItems = [
-  { name: 'Home', href: '#hero' },
-  { name: 'About', href: '#about' },
-  { name: 'Services', href: '#services' },
-  { name: 'Portfolio', href: '#portfolio' },
-  { name: 'Team', href: '#team' },
-  { name: 'Contact', href: '#contact' },
+  { nameKey: 'nav.home', href: '#hero' },
+  { nameKey: 'nav.about', href: '#about' },
+  { nameKey: 'nav.services', href: '#services' },
+  { nameKey: 'nav.portfolio', href: '#portfolio' },
+  { nameKey: 'nav.team', href: '#team' },
+  { nameKey: 'nav.contact', href: '#contact' },
 ];
 
 export const Navigation = () => {
+  const { t } = useLanguage();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
 
@@ -45,12 +48,15 @@ export const Navigation = () => {
             <span className="font-bold">Labs</span>
           </div>
           
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-2 rounded-full hover:bg-accent/10 transition-smooth"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="flex items-center space-x-4">
+            <LanguageSwitcher />
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="p-2 rounded-full hover:bg-accent/10 transition-smooth"
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -64,12 +70,12 @@ export const Navigation = () => {
           <div className="text-center space-y-8">
             {navItems.map((item, index) => (
               <button
-                key={item.name}
+                key={item.nameKey}
                 onClick={() => handleNavClick(item.href)}
                 className={`block text-4xl md:text-6xl font-outfit font-extralight hover:text-accent transition-smooth animate-slide-down`}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                {item.name}
+                {t(item.nameKey)}
               </button>
             ))}
           </div>

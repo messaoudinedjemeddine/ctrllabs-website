@@ -128,6 +128,15 @@ All colors MUST be HSL. Custom tokens for premium portfolio design.
   }
 }
 
+/* RTL Support for Arabic */
+[dir="rtl"] {
+  direction: rtl;
+}
+
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
 @layer components {
   /* Hero typography */
   .hero-title {
