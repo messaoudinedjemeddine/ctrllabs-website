@@ -76,7 +76,7 @@ export const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-light mb-12 font-outfit font-light max-w-3xl mx-auto">
-          At <span className="font-bold">CtrlLabs</span>, we don't just build digital solutions, we master them. We are your partner in the Algerian market, crafting exceptional websites, web apps, and e-commerce platforms that put you in complete control of your digital presence.
+          At <span className="font-bold font-moonwalk">CtrlLabs</span>, we don't just build digital solutions, we master them. We are your partner in the Algerian market, crafting exceptional websites, web apps, and e-commerce platforms that put you in complete control of your digital presence.
         </p>
         
         <button 

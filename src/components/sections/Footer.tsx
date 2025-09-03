@@ -58,7 +58,7 @@ export const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-xl font-outfit font-semibold">Connect</h3>
             <div className="space-y-3 text-primary-foreground/70 font-outfit">
-              <p>hello@ctrllabs.com</p>
+              <p>hello@<span className="font-moonwalk">ctrllabs</span>.com</p>
               <p>+213 (0) XXX XXX XXX</p>
               <p>Algiers, Algeria<br />Digital Innovation Hub</p>
             </div>
