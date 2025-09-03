@@ -112,6 +112,7 @@ export const ContactSection = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
+                    autoComplete="name"
                     className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth"
                   />
                 </div>
@@ -127,6 +128,7 @@ export const ContactSection = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
+                    autoComplete="email"
                     className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth"
                   />
                 </div>
@@ -143,6 +145,7 @@ export const ContactSection = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   required
+                  autoComplete="off"
                   className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth"
                 />
               </div>
@@ -158,6 +161,7 @@ export const ContactSection = () => {
                   onChange={handleChange}
                   required
                   rows={5}
+                  autoComplete="off"
                   className="w-full px-4 py-3 bg-background border border-border rounded-xl font-outfit focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-smooth resize-none"
                 />
               </div>
