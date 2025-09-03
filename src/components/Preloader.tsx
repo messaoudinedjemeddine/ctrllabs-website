@@ -49,11 +49,11 @@ export const Preloader = ({ onComplete }: PreloaderProps) => {
         
         {/* CTRL / Control */}
         <div className={`relative transition-all duration-800 ${showCtrl ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          <h1 className="text-5xl md:text-6xl font-outfit text-foreground relative">
-            <span className={`transition-all duration-500 font-bold ${showControl ? 'opacity-0' : 'opacity-100'}`}>
+          <h1 className="text-5xl md:text-6xl text-foreground relative">
+            <span className={`transition-all duration-500 font-moonwalk font-bold ${showControl ? 'opacity-0' : 'opacity-100'}`}>
               CTRL
             </span>
-            <span className={`absolute left-0 top-0 transition-all duration-500 font-extralight ${showControl ? 'opacity-100' : 'opacity-0'}`}>
+            <span className={`absolute left-0 top-0 transition-all duration-500 font-outfit font-extralight ${showControl ? 'opacity-100' : 'opacity-0'}`}>
               Control
             </span>
           </h1>

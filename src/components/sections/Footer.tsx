@@ -28,7 +28,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Logo & Description */}
           <div className="space-y-6">
-            <div className="text-3xl font-bold font-outfit">
+            <div className="text-3xl font-bold font-moonwalk">
               <span className="font-extralight">Ctrl</span>
               <span className="font-bold">Labs</span>
             </div>
@@ -81,7 +81,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-primary-foreground/10 text-center">
           <p className="text-primary-foreground/70 font-outfit font-light">
-            © 2024 <span className="font-bold">CtrlLabs</span>. All rights reserved.
+            © 2024 <span className="font-bold font-moonwalk">CtrlLabs</span>. All rights reserved.
           </p>
         </div>
       </div>

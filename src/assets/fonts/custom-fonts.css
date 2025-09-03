@@ -1,0 +1,9 @@
+/* Custom Fonts for CtrlLabs */
+
+@font-face {
+  font-family: 'MoonWalk';
+  src: url('./Moon Walk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Improves loading performance */
+}

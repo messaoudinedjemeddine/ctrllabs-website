@@ -20,7 +20,7 @@ export default {
 		extend: {
 			fontFamily: {
 				outfit: ['Outfit', 'sans-serif'],
-				moonwalk: ['Moonwalk', 'sans-serif'],
+				moonwalk: ['MoonWalk', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

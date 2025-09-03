@@ -40,7 +40,7 @@ export const Navigation = () => {
       {/* Navigation Header */}
       <nav className="fixed top-0 left-0 right-0 z-40 glass border-b border-border/20">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold font-outfit">
+          <div className="text-2xl font-bold font-moonwalk">
             <span className="font-extralight">Ctrl</span>
             <span className="font-bold">Labs</span>
           </div>
