@@ -39,6 +39,7 @@ const projects = [
 export const PortfolioSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -88,6 +89,7 @@ export const PortfolioSection = () => {
             <div 
               key={index}
               className="portfolio-card group cursor-pointer opacity-0"
+              onClick={() => navigate(`/project/${project.id}`)}
             >
               <div className="relative overflow-hidden rounded-3xl bg-card border border-border hover:shadow-[var(--shadow-soft)] transition-smooth">
                 {/* Image */}
