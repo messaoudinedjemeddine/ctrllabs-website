@@ -31,12 +31,12 @@ export const AboutSection = () => {
           <div className="space-y-8">
             <h2 className="section-title">
               <span className="section-title-bold">About</span>{' '}
-              <span className="section-title-thin">CtrlLabs</span>
+              <span className="section-title-bold">CtrlLabs</span>
             </h2>
             
             <div className="space-y-6 text-lg text-light font-outfit font-light leading-relaxed">
               <p>
-                CtrlLabs is an Algerian digital agency founded on the principle of Control, inspired by the keyboard key that signifies command and mastery. We believe that true digital success comes from having complete oversight of your online presence. Our team of expert developers and designers is dedicated to providing innovative solutions that empower your business.
+                <span className="font-bold">CtrlLabs</span> is an Algerian digital agency founded on the principle of Control, inspired by the keyboard key that signifies command and mastery. We believe that true digital success comes from having complete oversight of your online presence. Our team of expert developers and designers is dedicated to providing innovative solutions that empower your business.
               </p>
               
               <p>
@@ -54,7 +54,7 @@ export const AboutSection = () => {
             <div className="relative overflow-hidden rounded-3xl shadow-[var(--shadow-soft)]">
               <img 
                 src={heroBackground} 
-                alt="CtrlLabs creative studio" 
+                alt="CtrlLabs digital agency in Algeria" 
                 className="w-full h-96 object-cover image-hover"
               />
             </div>

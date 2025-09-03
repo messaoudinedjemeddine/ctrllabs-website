@@ -73,25 +73,27 @@ export const HeroSection = () => {
       <div ref={heroRef} className="relative z-20 text-center px-6 max-w-6xl mx-auto opacity-0">
         <h1 className="hero-title mb-8">
           <div className="hero-word-container">
-            <span className="hero-title-bold animate-hero-word-1">
+            <span className="hero-title-bold animate-hero-word-1 font-outfit">
+              <span className="text-accent/60 mr-2">{"<"}</span>
               {"Digital Control".split('').map((letter, index) => (
                 <span 
                   key={index} 
-                  className="hero-letter"
+                  className="hero-letter typewriter-char"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   {letter}
                 </span>
               ))}
+              <span className="text-accent/60 ml-2">{"/>"}</span>
             </span>
           </div>
           <div className="hero-word-container">
-            <span className="hero-title-thin animate-hero-word-2">
+            <span className="hero-title-thin animate-hero-word-2 font-outfit">
               {"Unlocked".split('').map((letter, index) => (
                 <span 
                   key={index} 
-                  className="hero-letter"
-                  style={{ animationDelay: `${0.8 + index * 0.1}s` }}
+                  className="hero-letter typewriter-char"
+                  style={{ animationDelay: `${1.5 + index * 0.1}s` }}
                 >
                   {letter}
                 </span>
@@ -101,7 +103,7 @@ export const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-light mb-12 font-outfit font-light max-w-3xl mx-auto">
-          At CtrlLabs, we don't just build digital solutions, we master them. We are your partner in the Algerian market, crafting exceptional websites, web apps, and e-commerce platforms that put you in complete control of your digital presence.
+          At <span className="font-bold">CtrlLabs</span>, we don't just build digital solutions, we master them. We are your partner in the Algerian market, crafting exceptional websites, web apps, and e-commerce platforms that put you in complete control of your digital presence.
         </p>
         
         <button 

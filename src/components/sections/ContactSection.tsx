@@ -68,7 +68,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-outfit font-semibold mb-2">Phone</h3>
-                  <p className="text-light font-outfit">+1 (555) 123-4567</p>
+                  <p className="text-light font-outfit">+213 (0) XXX XXX XXX</p>
                 </div>
               </div>
 
@@ -89,8 +89,8 @@ export const ContactSection = () => {
                 <div>
                   <h3 className="text-xl font-outfit font-semibold mb-2">Location</h3>
                   <p className="text-light font-outfit">
-                    123 Creative Street<br />
-                    Design District, NY 10001
+                    Algiers, Algeria<br />
+                    Digital Innovation Hub
                   </p>
                 </div>
               </div>

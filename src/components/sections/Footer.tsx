@@ -33,8 +33,8 @@ export const Footer = () => {
               <span className="font-bold">Labs</span>
             </div>
             <p className="text-primary-foreground/70 font-outfit font-light leading-relaxed">
-              Pioneering creative excellence through innovative digital solutions. 
-              We transform ideas into extraordinary experiences.
+              Mastering digital control through innovative solutions. 
+              We empower businesses in Algeria with complete oversight of their digital presence.
             </p>
           </div>
 
@@ -59,8 +59,8 @@ export const Footer = () => {
             <h3 className="text-xl font-outfit font-semibold">Connect</h3>
             <div className="space-y-3 text-primary-foreground/70 font-outfit">
               <p>hello@ctrllabs.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>123 Creative Street<br />Design District, NY 10001</p>
+              <p>+213 (0) XXX XXX XXX</p>
+              <p>Algiers, Algeria<br />Digital Innovation Hub</p>
             </div>
             
             <div className="flex space-x-4">
@@ -81,7 +81,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-primary-foreground/10 text-center">
           <p className="text-primary-foreground/70 font-outfit font-light">
-            © 2024 CtrlLabs. All rights reserved.
+            © 2024 <span className="font-bold">CtrlLabs</span>. All rights reserved.
           </p>
         </div>
       </div>
