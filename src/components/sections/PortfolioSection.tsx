@@ -39,7 +39,6 @@ const projects = [
 export const PortfolioSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -70,7 +69,8 @@ export const PortfolioSection = () => {
   }, []);
 
   const handleProjectClick = (projectId: string) => {
-    navigate(`/project/${projectId}`);
+    // Use window.location for navigation since this component isn't directly in Router context
+    window.location.href = `/project/${projectId}`;
   };
 
   return (
