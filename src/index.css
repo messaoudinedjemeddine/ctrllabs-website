@@ -216,15 +216,6 @@ All colors MUST be HSL. Custom tokens for premium portfolio design.
     @apply transition-smooth hover:scale-105;
   }
 
-  /* Portfolio card hover effects */
-  .portfolio-card {
-    @apply transition-all duration-300;
-  }
-
-  .portfolio-card:hover {
-    @apply transform -translate-y-2;
-  }
-
   /* Glass morphism effect */
   .glass {
     @apply backdrop-blur-xl bg-background/80 border border-border/50;

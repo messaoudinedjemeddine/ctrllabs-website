@@ -5,6 +5,9 @@ import { CustomCursor } from '@/components/CustomCursor';
 import { ScrollProgress } from '@/components/ScrollProgress';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/sections/Footer';
+import portfolioInterior from '@/assets/portfolio-interior.jpg';
+import portfolioBranding from '@/assets/portfolio-branding.jpg';
+import portfolioEcommerce from '@/assets/portfolio-ecommerce.jpg';
 
 // Project data - you can expand this with more projects
 const projectData = {
@@ -22,9 +25,9 @@ const projectData = {
     ],
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     screenshots: [
-      '/src/assets/portfolio-interior.jpg',
-      '/src/assets/portfolio-branding.jpg',
-      '/src/assets/portfolio-ecommerce.jpg'
+      portfolioInterior,
+      portfolioBranding,
+      portfolioEcommerce
     ],
     liveUrl: '#',
     githubUrl: '#'
@@ -43,9 +46,9 @@ const projectData = {
     ],
     technologies: ['Figma', 'Adobe Illustrator', 'Adobe Photoshop'],
     screenshots: [
-      '/src/assets/portfolio-branding.jpg',
-      '/src/assets/portfolio-interior.jpg',
-      '/src/assets/portfolio-ecommerce.jpg'
+      portfolioBranding,
+      portfolioInterior,
+      portfolioEcommerce
     ],
     liveUrl: '#',
     githubUrl: '#'
@@ -64,9 +67,9 @@ const projectData = {
     ],
     technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Stripe'],
     screenshots: [
-      '/src/assets/portfolio-ecommerce.jpg',
-      '/src/assets/portfolio-interior.jpg',
-      '/src/assets/portfolio-branding.jpg'
+      portfolioEcommerce,
+      portfolioInterior,
+      portfolioBranding
     ],
     liveUrl: '#',
     githubUrl: '#'
@@ -85,9 +88,9 @@ const projectData = {
     ],
     technologies: ['React', 'Three.js', 'Node.js', 'MongoDB'],
     screenshots: [
-      '/src/assets/portfolio-interior.jpg',
-      '/src/assets/portfolio-ecommerce.jpg',
-      '/src/assets/portfolio-branding.jpg'
+      portfolioInterior,
+      portfolioEcommerce,
+      portfolioBranding
     ],
     liveUrl: '#',
     githubUrl: '#'
@@ -106,9 +109,9 @@ const projectData = {
     ],
     technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
     screenshots: [
-      '/src/assets/portfolio-branding.jpg',
-      '/src/assets/portfolio-interior.jpg',
-      '/src/assets/portfolio-ecommerce.jpg'
+      portfolioBranding,
+      portfolioInterior,
+      portfolioEcommerce
     ],
     liveUrl: '#',
     githubUrl: '#'
@@ -127,9 +130,9 @@ const projectData = {
     ],
     technologies: ['Vue.js', 'Node.js', 'Socket.io', 'Redis', 'AWS'],
     screenshots: [
-      '/src/assets/portfolio-ecommerce.jpg',
-      '/src/assets/portfolio-branding.jpg',
-      '/src/assets/portfolio-interior.jpg'
+      portfolioEcommerce,
+      portfolioBranding,
+      portfolioInterior
     ],
     liveUrl: '#',
     githubUrl: '#'

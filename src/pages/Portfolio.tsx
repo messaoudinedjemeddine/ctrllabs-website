@@ -12,7 +12,7 @@ import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/sections/Footer';
 
 const Portfolio = () => {
-  const [isLoading, setIsLoading] = useState(false); // Temporarily disable preloader
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Prevent scrolling during preloader
@@ -33,7 +33,7 @@ const Portfolio = () => {
 
   return (
     <div className="relative">
-      {/* Preloader - temporarily disabled */}
+      {/* Preloader */}
       {isLoading && <Preloader onComplete={handlePreloaderComplete} />}
 
       {/* Main Content */}

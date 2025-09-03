@@ -69,6 +69,10 @@ export const PortfolioSection = () => {
     return () => observer.disconnect();
   }, []);
 
+  const handleProjectClick = (projectId: string) => {
+    navigate(`/project/${projectId}`);
+  };
+
   return (
     <section id="portfolio" className="py-32 bg-section">
       <div className="max-w-7xl mx-auto px-6">
@@ -87,9 +91,9 @@ export const PortfolioSection = () => {
         <div ref={gridRef} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div 
-              key={index}
+              key={project.id}
               className="portfolio-card group cursor-pointer opacity-0"
-              onClick={() => navigate(`/project/${project.id}`)}
+              onClick={() => handleProjectClick(project.id)}
             >
               <div className="relative overflow-hidden rounded-3xl bg-card border border-border hover:shadow-[var(--shadow-soft)] transition-smooth">
                 {/* Image */}
@@ -100,6 +104,11 @@ export const PortfolioSection = () => {
                     className="w-full h-64 object-cover image-hover"
                   />
                   <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-smooth" />
+                  
+                  {/* Hover overlay with "View Project" text */}
+                  <div className="absolute inset-0 bg-primary/30 opacity-0 group-hover:opacity-100 transition-smooth flex items-center justify-center">
+                    <span className="text-white font-outfit font-semibold text-lg">View Project</span>
+                  </div>
                 </div>
 
                 {/* Content */}
