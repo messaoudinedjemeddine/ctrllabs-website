@@ -129,7 +129,7 @@ All colors MUST be HSL. Custom tokens for premium portfolio design.
 @layer components {
   /* Hero typography */
   .hero-title {
-    @apply text-6xl md:text-8xl lg:text-9xl font-outfit leading-none tracking-tight;
+    @apply text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-outfit leading-none tracking-tight;
   }
 
   .hero-title-bold {
@@ -142,7 +142,11 @@ All colors MUST be HSL. Custom tokens for premium portfolio design.
 
   /* Hero animation containers */
   .hero-word-container {
-    @apply block;
+    @apply block w-full;
+  }
+
+  .hero-title-bold {
+    @apply font-bold whitespace-nowrap;
   }
 
   .hero-letter {

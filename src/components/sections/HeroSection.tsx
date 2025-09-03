@@ -73,18 +73,24 @@ export const HeroSection = () => {
       <div ref={heroRef} className="relative z-20 text-center px-6 max-w-6xl mx-auto opacity-0">
         <h1 className="hero-title mb-8">
           <div className="hero-word-container">
-            <span className="hero-title-bold animate-hero-word-1 font-outfit">
-              <span className="text-accent/60 mr-2">{"<"}</span>
-              {"Digital Control Unlocked".split('').map((letter, index) => (
-                <span 
-                  key={index} 
-                  className="hero-letter typewriter-char"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  {letter}
-                </span>
-              ))}
-              <span className="text-accent/60 ml-2">{"/>"}</span>
+            <span className="hero-title-bold animate-hero-word-1 font-outfit flex items-center justify-center">
+              <span className="text-accent/60 mr-3 text-2xl md:text-4xl lg:text-5xl">{"<"}</span>
+              <span className="flex">
+                {"Digital Control Unlocked".split(' ').map((word, wordIndex) => (
+                  <span key={wordIndex} className="mr-4">
+                    {word.split('').map((letter, letterIndex) => (
+                      <span 
+                        key={letterIndex} 
+                        className="hero-letter typewriter-char inline-block"
+                        style={{ animationDelay: `${(wordIndex * 5 + letterIndex) * 0.1}s` }}
+                      >
+                        {letter}
+                      </span>
+                    ))}
+                  </span>
+                ))}
+              </span>
+              <span className="text-accent/60 ml-3 text-2xl md:text-4xl lg:text-5xl">{"/>"}</span>
             </span>
           </div>
         </h1>
