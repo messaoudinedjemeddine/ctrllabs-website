@@ -142,7 +142,7 @@ All colors MUST be HSL. Custom tokens for premium portfolio design.
 
   /* Hero animation containers */
   .hero-word-container {
-    @apply block mb-4;
+    @apply block;
   }
 
   .hero-letter {

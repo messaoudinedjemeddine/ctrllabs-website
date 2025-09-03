@@ -75,7 +75,7 @@ export const HeroSection = () => {
           <div className="hero-word-container">
             <span className="hero-title-bold animate-hero-word-1 font-outfit">
               <span className="text-accent/60 mr-2">{"<"}</span>
-              {"Digital Control".split('').map((letter, index) => (
+              {"Digital Control Unlocked".split('').map((letter, index) => (
                 <span 
                   key={index} 
                   className="hero-letter typewriter-char"
@@ -85,19 +85,6 @@ export const HeroSection = () => {
                 </span>
               ))}
               <span className="text-accent/60 ml-2">{"/>"}</span>
-            </span>
-          </div>
-          <div className="hero-word-container">
-            <span className="hero-title-thin animate-hero-word-2 font-outfit">
-              {"Unlocked".split('').map((letter, index) => (
-                <span 
-                  key={index} 
-                  className="hero-letter typewriter-char"
-                  style={{ animationDelay: `${1.5 + index * 0.1}s` }}
-                >
-                  {letter}
-                </span>
-              ))}
             </span>
           </div>
         </h1>
