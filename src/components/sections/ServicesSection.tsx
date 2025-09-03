@@ -3,41 +3,41 @@ import {
   Globe, 
   Code, 
   Palette, 
-  TrendingUp, 
-  Figma, 
-  MessageCircle 
+  CreditCard, 
+  Truck, 
+  HeadphonesIcon 
 } from 'lucide-react';
 
 const services = [
   {
-    icon: Globe,
-    title: 'Websites & Web Apps',
-    description: 'Custom-built websites and powerful web applications designed for performance, security, and a flawless user experience.'
-  },
-  {
     icon: Code,
-    title: 'E-commerce Solutions',
-    description: 'Launch a thriving online store with our bespoke e-commerce platforms, featuring essential local integrations like Yalidine for shipping and Chargily for secure payments.'
+    title: 'Web Development & Maintenance',
+    description: 'Our comprehensive service covers the entire website lifecycle, from robust development and secure deployment to ongoing maintenance, bug fixes, and continuous technical support to ensure your site is always running perfectly.'
   },
   {
-    icon: Figma,
-    title: 'UI/UX Design',
-    description: 'Human-centered design that ensures your digital products are intuitive, engaging, and convert visitors into loyal customers.'
+    icon: Globe,
+    title: 'E-commerce & Landing Pages',
+    description: 'We build powerful e-commerce platforms and high-converting landing pages tailored to the Algerian market, driving sales and capturing leads to help your business grow.'
   },
   {
     icon: Palette,
-    title: 'Branding & Identity',
-    description: 'We craft powerful brand identities that tell your story and create a lasting connection with your audience in the Algerian market.'
+    title: 'Web Design & Brand Identity',
+    description: 'We craft modern and professional web designs while developing a strong brand identity that visually represents your business and resonates with your target audience.'
   },
   {
-    icon: TrendingUp,
-    title: 'Digital Marketing',
-    description: 'Strategic online campaigns to boost your visibility, drive traffic, and achieve measurable growth for your business.'
+    icon: CreditCard,
+    title: 'Online Payment Integration',
+    description: 'We specialize in seamlessly integrating essential local online payment gateways like Chargily, providing a secure and efficient way for your business to accept payments.'
   },
   {
-    icon: MessageCircle,
-    title: 'Technical Consulting',
-    description: 'Expert guidance to navigate your digital challenges, helping you find the right technologies and strategies to solve any problem.'
+    icon: Truck,
+    title: 'Delivery Solutions',
+    description: 'We integrate with various delivery companies, including Yalidine, to streamline your logistics and ensure a smooth, reliable shipping process for your customers.'
+  },
+  {
+    icon: HeadphonesIcon,
+    title: 'IT Support',
+    description: 'We offer expert IT support, both on-site and online, to troubleshoot and resolve any technical challenges your business may face, allowing you to focus on what you do best.'
   }
 ];
 
